@@ -1,0 +1,29 @@
+body{
+    background-color: #fffafa;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+h5{
+    color: #00a8a8;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 250px;
+    margin-right: 250px;
+    font-weight: bold;
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+hr{
+    margin-left: 190px;
+    margin-right: 190px;
+    margin-top: 40px;
+}
