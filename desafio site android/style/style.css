@@ -23,15 +23,6 @@
     --fonte-android: 'Android', cursive;
 }
 
-nav{
-    background-color: transparent;
-}
-
-nav > a{
-    background-color: transparent;
-    padding: 10px;
-}
-
 body{
     font-family: var(--fonte-padrao);
     background-color: var(--cor0);
@@ -42,20 +33,48 @@ p{
 }
 
 header{
-    background-image: linear-gradient(to bottom,#3ddc84, #063d1e);
-    padding: 50px;
+    background-image: linear-gradient(to bottom,#2fa866, #063d1e);
+    min-height: 150px;
     text-align: center;
+    padding-top: 40px;
 }
 
 header > h1{
     color: white;
     font-family: var(--fonte-destaque);
-    font-size: 40px;
-    padding-bottom: 30px;
+    font-size: 3em;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.507);
 }
 
 header > p{
     color: white;
+    font-family: var(--fonte-padrao);
+    font-size: 1.2em;
+    max-width: 600px;
+    margin: auto;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.507);
+}
+
+nav{
+    background-color: #063d1e;
+    padding: 10px;
+    box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.39);
+}
+
+nav > a{
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    transition-duration: 0.3s;
+}
+
+nav > a:hover {
+    background-color: #3ddc84;
+    color: #1a5c37;
+    border-radius: 5px;
 }
 
 main{
