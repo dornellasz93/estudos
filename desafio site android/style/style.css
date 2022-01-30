@@ -28,10 +28,6 @@ body{
     background-color: var(--cor0);
 }
 
-p{
-    
-}
-
 header{
     background-image: linear-gradient(to bottom,#2fa866, #063d1e);
     min-height: 150px;
@@ -96,10 +92,26 @@ main h1{
 
 main h2{
     font-family: var(--fonte-android);
+    color: var(--cor4);
+    font-size: 1.3em;
+    background-image: linear-gradient(to right, var(--cor1), transparent);
+    text-indent: 10px;
+}
+
+main p{
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 20px;
+    line-height: 1.5em;
+}
+
+main strong{
+    color: var(--cor4);
+    font-weight: bold;
 }
 
 main img.pequena{
-    width: 50%;
+    max-width: 350px;
     display: block;
     margin: auto;
 }
@@ -109,10 +121,18 @@ img{
     margin: 10px auto 10px auto;
 }
 
-a{
-    color:#268d55;
+main a{
+    color: var(--cor5);
     text-decoration: none;
-    font-weight: bolder;
+    font-weight: bold;
+    background-color: var(--cor1);
+    padding: 3px 5px;
+    transition-duration: .4s;
+}
+
+main a:hover{
+    background-color: var(--cor5);
+    color: var(--cor1);
 }
 
 .link::after{
